@@ -18,15 +18,17 @@ public class CloudVendor
     private String vendorName;
     private String vendorAddress;
     private String vendorPhoneNumber;
+    private String vendorEmail;
 
     public CloudVendor(){
     }
 
-    public CloudVendor(String vendorId, String vendorName, String vendorAddress, String vendorPhoneNumber){
+    public CloudVendor(String vendorId, String vendorName, String vendorAddress, String vendorPhoneNumber, String vendorEmail){
         this.vendorId = vendorId;
         this.vendorName = vendorName;
         this.vendorAddress = vendorAddress;
         this.vendorPhoneNumber = vendorPhoneNumber;
+        this.vendorEmail = vendorEmail;
     }
 
 }
